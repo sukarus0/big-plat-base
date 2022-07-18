@@ -8,3 +8,10 @@ class Resources(models.Model):
 
     def __str__(self):
         return f'Resources - ({self.cpu}, {self.memory})'
+
+class ClusterInfo(models.Model):
+    component_type = models.CharField(max_length=20)
+    number_of_members = models.IntegerField()
+
+    def __str__(self):
+        return f'{component_type}.cluster of {number_of_members} members'
