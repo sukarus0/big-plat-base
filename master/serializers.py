@@ -4,4 +4,4 @@ from .models import BigDataComponent
 class BigDataComponentSerializer(serializers.ModelSerializer):
     class Meta:
         model = BigDataComponent
-        fields = ('category', 'name')
+        fields = ('category', 'name', 'access_point')

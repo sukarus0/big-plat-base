@@ -2,6 +2,6 @@ from rest_framework import routers
 from .views import BigDataComponentViewSet
 
 router = routers.SimpleRouter()
-router.register('big-data-component', BigDataComponentViewSet)
+router.register('master', BigDataComponentViewSet)
 
 urlpatterns = router.urls
