@@ -4,4 +4,4 @@ from .models import Resources
 class ResourceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resources
-        fields = ('cpu', 'memory')       
+        fields = ('cpu', 'memory', 'created_at')       
