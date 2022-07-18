@@ -33,6 +33,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('master/', include('master.urls')),
+    path('component/', include('component.urls')),
 ]
 
 urlpatterns += [
