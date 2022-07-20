@@ -34,6 +34,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('master/', include('master.urls')),
     path('component/', include('component.urls')),
+    path('component-control/', include('component_control.urls')),
 ]
 
 urlpatterns += [

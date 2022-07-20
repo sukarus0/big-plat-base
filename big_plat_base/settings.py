@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'master',
     'component',
+    'component_control',
     'drf_yasg',
 ]
 
